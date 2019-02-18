@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // Components
 import Header from "./subComponents/Header";
-import HomeScreen from "./screens/HomeScreen";
+import Splash from "./sections/Splash";
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
             path: "/contact"
           }
         ]}/>
-        <HomeScreen/>
+        <Splash/>
       </div>
     );
   }
