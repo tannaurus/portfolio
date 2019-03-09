@@ -1,0 +1,70 @@
+/* --- PROJECT STYLES --- */
+.project {
+  width: 100%;
+}
+
+.project-image {
+  max-width: 35%;
+}
+
+.project-container {
+  width: 80%;
+  padding: 80px 0px;
+}
+
+.project-about {
+  display: flex;
+  height: 50%;
+  padding: 0px 30px 40px 30px;
+}
+
+.project-name {
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.project-description {
+  color: white;
+  margin: 5px 0px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  max-width: 450px;
+}
+
+.project-job-title {
+  font-size: 0.9em;
+  font-weight: 100;
+  color: white;
+}
+
+/* --- PRESS STYLES --- */
+.press-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.press-img {
+  width: 90%;
+}
+
+.shapa-press-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* --- STYLES < 800px --- */
+@media only screen and (max-width: 800px) {
+  .project-container {
+    flex-direction: column-reverse;
+    padding: 50px 0px;
+  }
+  .project-image {
+    max-width: 80%;
+  }
+}

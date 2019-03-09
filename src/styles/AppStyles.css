@@ -1,3 +1,4 @@
+/* --- APP STYLES --- */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 @font-face {
@@ -6,7 +7,7 @@
 }
 
 body {
-  background-color: #DBE4EE;
+  background-color: #EDF5FF;
 }
 
 * {
@@ -14,6 +15,30 @@ body {
   font-size: 16px;
   color: black;
   transition-duration: 1s;
+  margin: 0;
+  padding: 0; 
+}
+
+h1, h2, h3, h4 {
+  font-family: "Big John", "Open Sans", sans-serif;
+  color: #3E7CB1;
+}
+
+h4 {
+  color: #81A4CD;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2, h3 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
 }
 
 a {
@@ -38,6 +63,10 @@ a {
   justify-content: center;
 }
 
+.flex-align-center {
+  align-items: center;
+}
+
 .flex-space-around {
   justify-content: space-around;
 }
@@ -46,12 +75,18 @@ a {
   justify-content: space-between;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/* --- STYLES < 800px --- */
 @media only screen and (max-width: 800px) {
   * {
     font-size: 14px;
   }
 }
 
+/* --- STYLES < 500px --- */
 @media only screen and (max-width: 500px) {
   * {
     font-size: 12px;

@@ -3,6 +3,7 @@ import React, { Component } from "react";
 // Components
 import Header from "./subComponents/Header";
 import Splash from "./sections/Splash";
+import Work from "./sections/Work";
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
         <Header buttons={[
           {
             title: "Work",
-            path: "/work"
+            path: "#work"
           },
           {
             title: "About",
@@ -22,7 +23,8 @@ class App extends Component {
             path: "/contact"
           }
         ]}/>
-        <Splash/>
+        <Splash />
+        <Work />
       </div>
     );
   }

@@ -1,0 +1,19 @@
+/* --- GRID STYLES --- */
+.grid {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.grid-element {
+  box-sizing: border-box;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}

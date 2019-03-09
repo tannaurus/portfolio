@@ -1,0 +1,12 @@
+/* --- WORK STYLES --- */
+.work {
+  position: relative;
+  top: -40px;
+  z-index: -1;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.shapa {
+  background: linear-gradient(#ff7300, #FFB50D);
+}

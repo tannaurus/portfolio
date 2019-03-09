@@ -77,7 +77,9 @@ class Header extends React.Component<HeaderProps, HeaderState> {
     const { revealed } = this.state;
     return (
       <nav className={revealed ? "flex flex-row flex-space-between nav-bar revealed" : "flex flex-row flex-space-between nav-bar"}>
-        <img className="name" src="/images/name.svg"/>
+        <div className="header-name-container">
+          <a className="home-link" href="/"><img className="name" src="/images/name.svg"/></a>
+        </div>
         {this.buildButtons()}
       </nav>
     );
