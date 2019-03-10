@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import Header from "./subComponents/Header";
 import Splash from "./sections/Splash";
 import Work from "./sections/Work";
+import About from "./sections/About";
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         ]}/>
         <Splash />
         <Work />
+        <About />
       </div>
     );
   }

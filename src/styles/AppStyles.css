@@ -10,7 +10,7 @@ body {
   background-color: #EDF5FF;
 }
 
-* {
+*, span, a {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: black;
@@ -22,6 +22,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "Big John", "Open Sans", sans-serif;
   color: #3E7CB1;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -34,15 +35,32 @@ h1 {
 
 h2, h3 {
   font-size: 48px;
+  line-height: 1.3em;
   margin: 10px 0;
 }
 
-p {
+p, span {
   margin: 10px 0;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.simi-bold {
+  font-weight: 600;
+}
+
+.orange {
+  color: #F17300;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .fill-screen {

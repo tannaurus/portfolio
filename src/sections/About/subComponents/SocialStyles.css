@@ -1,0 +1,29 @@
+/* --- SOCIAL STYLES --- */
+.social-wrapper {
+  display: inline-block;
+  justify-content: space-between;
+  width: 110px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.social-container {
+  display: inline-block;
+  width: 30%;
+}
+
+.social-wrapper::before {
+  padding: 0;
+}
+
+.social-icon {
+  width: 60%;
+}
+
+/* --- STYLES < 800px --- */
+@media only screen and (max-width: 800px) {
+  .social-wrapper {
+    width: 150px;
+  }
+}
