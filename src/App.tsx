@@ -17,7 +17,7 @@ class App extends Component {
           },
           {
             title: "About",
-            path: "/about"
+            path: "#about"
           },
           {
             title: "Contact",
