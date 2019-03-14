@@ -1,0 +1,79 @@
+/* --- CONTACT STYLES --- */
+.contact {
+  background-color: #81A4CD;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 80%;
+  max-width: 700px;
+}
+
+.contact h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* FORM, LABEL, INPUT SPECIFIC STYLES */
+.contact label {
+  display: block;
+  padding-bottom: 6px;
+  color: white;
+}
+
+.contact input[type=text], .contact input[type=email] {
+  width: 100%;
+}
+
+.contact textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.contact input, .contact textarea {
+  background-color: white;
+  border: 0px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding: 12px 15px;
+  font-size: 1.3em;
+  display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.contact .submit-btn {
+  padding: 12px 40px;
+  margin: 40px auto;
+  color: #3E7CB1;
+  border-radius: 2px;
+}
+
+
+/* FORM POSITION STYLES */
+.client-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.client-info-col {
+  width: 45%;
+}
+
+/* --- STYLES < 600px --- */
+@media only screen and (max-width: 600px) {
+  .contact input, .contact textarea {
+    font-size: 1em;
+  }
+}

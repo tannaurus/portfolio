@@ -5,6 +5,7 @@ import Header from "./subComponents/Header";
 import Splash from "./sections/Splash";
 import Work from "./sections/Work";
 import About from "./sections/About";
+import Contact from "./sections/Contact";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
         <Splash />
         <Work />
         <About />
+        <Contact />
       </div>
     );
   }
