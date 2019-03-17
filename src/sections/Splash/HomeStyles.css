@@ -16,6 +16,7 @@
   width: 80px;
   align-self: center;
   margin-bottom: 10px;
+  z-index: 1;
 }
 
 /* --- STYLES < 800px --- */

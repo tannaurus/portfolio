@@ -1,7 +1,14 @@
 /* --- ABOUT STYLES --- */
 #about {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 100px 0px;
+}
+
+#about .self-introduction {
+  width: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -14,7 +21,6 @@
 
 .bio {
   color: #81A4CD;
-  line-height: 1.55em;
   letter-spacing: 0.5px;
 }
 
@@ -23,10 +29,80 @@
   max-width: 350px;
 }
 
+.columns {
+  display: flex;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  border-radius: 15px;
+  margin-top: 60px;
+}
+
+.column {
+  box-sizing: border-box;
+  width: 33%;
+  padding: 50px 30px;
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columns .column:last-child {
+  border: none;
+}
+
+.column-icon {
+  width: 50%;
+  max-width: 120px;
+  padding-bottom: 35px;
+}
+
+.column h4 {
+  color: #F17300;
+}
+
+.column h5 {
+  color: #3E7CB1;
+}
+
+.column .column-desc {
+  padding-bottom: 20px;
+}
+
+.column .stats {
+  padding-bottom: 20px;
+  width: 60%;
+}
+
 /* --- STYLES < 1000px --- */
 @media only screen and (max-width: 1000px) {
   .profile {
     width: 25%;
+  }
+    
+  /* COLUMNS STYLE */
+  .columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .column .column-desc {
+    padding-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .column .stats {
+    margin-top: 5px;
   }
 }
 
