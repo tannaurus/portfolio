@@ -22,7 +22,7 @@ class App extends Component {
           },
           {
             title: "Contact",
-            path: "/contact"
+            path: "#contact"
           }
         ]}/>
         <Splash />

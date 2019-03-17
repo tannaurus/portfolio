@@ -3,7 +3,7 @@ import React from "react";
 import "./ContactStyles.css";
 
 const Contact = () => (
-  <article className="contact">
+  <article id="contact" className="contact">
     <div className="form-wrapper">
       <h2>REACH OUT</h2>
       <form>
